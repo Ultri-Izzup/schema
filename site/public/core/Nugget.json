@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.ultri.space/core/Nugget.json",
+  "title": "NuggetMeta",
+  "description": "Common management and publishing properties",
+  "type": "object",
+    "properties": {
+      "uid": {
+        "description": "The unique identifier for a thing",
+        "type": "string"
+      },
+      "dateCreated": {
+        "description": "When the item was created.",
+        "type": "string"
+      },
+      "dateModified": {
+        "description": "When the item was last updated.",
+        "type": "string"
+      },
+      "datePublished": {
+        "description": "When the item should be published.",
+        "type": "string"
+      },
+      "dateToUnpublish": {
+        "description": "When the item should be removed from publication.",
+        "type": "string"
+      },
+      "dateToReview": {
+        "description": "When the item should be reviewed.",
+        "type": "string"
+      },
+      "nuggetType": {
+        "description": "The nugget type for the item.",
+        "type": "string"
+      },
+      "nuggetSubType": {
+        "description": "The nugget subtype for the item.",
+        "type": "string"
+      }
+    }
+}
