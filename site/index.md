@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Ultri Schema"
+  name: "Ultri Open Schema"
   text: "JSON Schema Resources"
   tagline: An open source project
 #   actions:
